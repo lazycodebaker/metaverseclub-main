@@ -1,23 +1,17 @@
+
+import React from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
+import Navbar from '@/components/Navbar';
 import { Hero } from '@/components/Hero';
 import { About } from '@/components/About';
 import BannerImg from 'public/images/hero.jpg';
 import { Products } from '@/components/Products';
-import Navbar from '@/components/Navbar';
-import React from 'react';
-
-import {
-  EthereumClient,
-} from "@web3modal/ethereum";
-import { Web3Modal, useWeb3Modal } from "@web3modal/react";
-import { chains, ethereumClient, wagmiClient } from '@/context/WalletConnect';
+import { Web3Modal } from "@web3modal/react";
+import { ethereumClient } from '@/context/WalletConnect';
+import { Chart } from '@/components/Chart';
 
 export default function Home() {
-
-
-  const { isOpen, open, close, setDefaultChain } = useWeb3Modal();
-
   return (
     <>
       <Head>
@@ -45,7 +39,7 @@ export default function Home() {
         <Hero />
         <About />
         <Products />
-
+        <Chart />
       </main>
     </>
   );

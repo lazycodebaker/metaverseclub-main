@@ -97,7 +97,7 @@ export default function Navbar() {
             </a>
           </div>
 
-          <div className='walletconnect hidden'>
+          <div className='walletconnect hidden pt-4'>
             <Web3Button />            
           </div>
 
