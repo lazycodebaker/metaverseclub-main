@@ -61,7 +61,7 @@ export const Chart: React.FC<{}> = () => {
 
                     <div className="sm:w-1/2 w-full h-full mb-10 ">
                         <div className="rounded-lg h-full overflow-hidden">
-                            <Pie data={data} />
+                            <Pie data={data} options= {{ plugins :{legend:false} }} />
                         </div></div>
 
                 </div>
