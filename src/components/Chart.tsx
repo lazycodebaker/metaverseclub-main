@@ -1,7 +1,7 @@
 
 import React from "react";
 
-import { Pie } from "react-chartjs-2";
+import { Doughnut } from "react-chartjs-2";
 
 import { Tooltip, ArcElement, Title, Legend, Chart as ChartJS } from "chart.js";
 
@@ -61,7 +61,7 @@ export const Chart: React.FC<{}> = () => {
 
                     <div className="sm:w-1/2 w-full h-full mb-10 ">
                         <div className="rounded-lg h-full overflow-hidden">
-                            <Pie
+                            <Doughnut
                                 data={data}
                                 options={{
                                     plugins: {
@@ -70,8 +70,8 @@ export const Chart: React.FC<{}> = () => {
                                     }
                                 }}
                             />
-                        </div></div>
-
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
