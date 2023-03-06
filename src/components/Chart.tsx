@@ -23,24 +23,24 @@ export const Chart: React.FC<{}> = () => {
         datasets: [{
             data: [2, 35, 10, 20, 10, 5, 8, 10],
             backgroundColor: [
-                '#FF6384',
-                '#36A2EB',
-                '#FFCE56',
-                '#FF6384',
-                '#36A2EB',
-                '#FFCE56',
-                '#FF6384',
-                '#36A2EB'
+                '#ff66c4',
+                '#cb6ce6',
+                '#0097b2',
+                '#0cc0df',
+                '#5ce1e6',
+                '#38b6ff',
+                '#5271ff',
+                '#004aad'
             ],
             hoverBackgroundColor: [
-                '#FF6384',
-                '#36A2EB',
-                '#FFCE56',
-                '#FF6384',
-                '#36A2EB',
-                '#FFCE56',
-                '#FF6384',
-                '#36A2EB'
+                '#ff66c4',
+                '#cb6ce6',
+                '#0097b2',
+                '#0cc0df',
+                '#5ce1e6',
+                '#38b6ff',
+                '#5271ff',
+                '#004aad'
             ]
         }]
     };
@@ -61,7 +61,15 @@ export const Chart: React.FC<{}> = () => {
 
                     <div className="sm:w-1/2 w-full h-full mb-10 ">
                         <div className="rounded-lg h-full overflow-hidden">
-                            <Pie data={data} options= {{ plugins :{legend:false} }} />
+                            <Pie
+                                data={data}
+                                options={{
+                                    plugins: {
+                                        legend: { "align": "start", "position": "bottom" },
+                                        title: { "position": "bottom", "align": "center", "color": "white" }
+                                    }
+                                }}
+                            />
                         </div></div>
 
                 </div>
