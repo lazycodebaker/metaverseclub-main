@@ -9,7 +9,7 @@ import { Web3Button } from '@web3modal/react';
 export default function Navbar() {
   const [isNavOpen, setIsNavOpen] = useState<boolean>(false);
 
-// const { address, connect, disconnect, isConnected } = useContext(WalletContext);
+  // const { address, connect, disconnect, isConnected } = useContext(WalletContext);
 
   const isConnected = false;
   const connect = () => { };
@@ -48,9 +48,12 @@ export default function Navbar() {
     <>
       <AnnouncementBar />
       <nav className="flex navbar fixed z-50 w-screen items-center justify-between flex-wrap bg-black/50 backdrop-blur-md p-6">
+
         <div className="flex items-center flex-shrink-0 text-white mr-6">
           <h1 className="font-bold text-3xl tracking-tight">Metaverse Club</h1>
         </div>
+
+
         <div className="block lg:hidden backdrop-blur-md rounded-md">
           <button
             className="flex items-center px-3 py-2 text-whitehover:text-white rounded-md"
@@ -59,46 +62,47 @@ export default function Navbar() {
             {isNavOpen ? <FaTimes size={26} /> : <FaBars size={26} />}
           </button>
         </div>
+
         <div
           className={`w-full block flex-grow lg:flex lg:items-center lg:w-auto items-center rounded-md
               ${isNavOpen ? 'block border-t-[1px] border-white mt-4' : 'hidden'
             }`}
         >
-          <div className="text-lg font-bold lg:flex-grow pt-[4px]">
+          <div className="text-lg font-bold lg:flex-grow pt-[4px] sm:flex items-center justify-evenly">
             <a
               href="#responsive-header"
-              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4"
+              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:bg-blue-600/70 p-2 rounded-md mr-4"
             >
               ABOUT
             </a>
             <a
               href="#responsive-header"
-              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4"
+              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:bg-blue-600/70 p-2 rounded-md mr-4"
             >
               PRODUCTS
             </a>
             <a
               href="#responsive-header"
-              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white"
+              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:bg-blue-600/70 p-2 rounded-md"
             >
               ROADMAP
             </a>
             <a
               href="#responsive-header"
-              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white"
+              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:bg-blue-600/70 p-2 rounded-md"
             >
               WIN $100K
             </a>
             <a
               href="#responsive-header"
-              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white"
+              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:bg-blue-700 p-2 rounded-md"
             >
               NEW TO CRYPTO?
             </a>
           </div>
 
           <div className='walletconnect hidden pt-4'>
-            <Web3Button />            
+            <Web3Button />
           </div>
 
         </div>
