@@ -49,15 +49,15 @@ export const Chart: React.FC<{}> = () => {
     return (
         <section className="text-gray-600 body-font">
             <div className="container px-5 py-24 mx-auto">
-                <div className="flex flex-wrap -mx-4 -mb-10 text-center">
+                <div className="flex flex-wrap -mx-5 -mb-10 text-center">
 
-                    <div className="sm:w-1/2 mb-10 px-4">
+                    <div className="sm:w-3/5 w-full mb-10 px-2">
                         <div className="rounded-lg w-full h-full overflow-hidden">
                             <TokenCard />
                         </div>
                     </div>
 
-                    <div className="sm:w-1/2 w-full h-full mb-10 ">
+                    <div className="sm:w-2/5 w-full h-full mb-10 ">
                         <div className="rounded-lg h-full overflow-hidden">
                             <Doughnut
                                 data={data}
