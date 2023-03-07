@@ -10,6 +10,7 @@ import { Products } from '@/components/Products';
 import { Web3Modal } from "@web3modal/react";
 import { ethereumClient } from '@/context/WalletConnect';
 import { Chart } from '@/components/Chart';
+import { Roadmap } from '@/components/Roadmap';
 
 export default function Home() {
   return (
@@ -40,6 +41,7 @@ export default function Home() {
         <About />
         <Products />
         <Chart />
+        <Roadmap />
       </main>
     </>
   );

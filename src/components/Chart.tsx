@@ -48,6 +48,7 @@ export const Chart: React.FC<{}> = () => {
 
     return (
         <section className="text-gray-600 body-font">
+            <h1 className='font-bold text-5xl sm:text-7xl text-gray-50 text-center self-center mt-12'>TOKENOMICS</h1>
             <div className="container px-5 py-24 mx-auto">
                 <div className="flex flex-wrap -mx-5 -mb-10 text-center">
 
