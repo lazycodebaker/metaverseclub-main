@@ -24,11 +24,11 @@ We are here to solve the biggest problem of club gaming which is transparency. M
                     </p>
 
                     <div className="flex items-center justify-start space-x-6 mr-10">
-                        <a href="https://t.me/metaverseclub" target="_blank" rel="noreferrer" className="text-2xl text-white hover:text-blue-500"><FaTelegram size={30} /></a>
-                        <a href="https://twitter.com/metaverseclub" target="_blank" rel="noreferrer" className="text-2xl text-white hover:text-blue-500"><FaTwitter size={30} /></a>
-                        <a href="https://wa.me/919999999999" target="_blank" rel="noreferrer" className="text-2xl text-white hover:text-blue-500"><FaInstagram size={30} /></a>
+                        <a href="https://t.me/metaverseclubofficial" target="_blank" rel="noreferrer" className="text-2xl text-white hover:text-blue-500"><FaTelegram size={30} /></a>
+                        <a href="https://twitter.com/METAVERSECLUB32" target="_blank" rel="noreferrer" className="text-2xl text-white hover:text-blue-500"><FaTwitter size={30} /></a>
+                        <a href="https://www.instagram.com/metaverseclub32/" target="_blank" rel="noreferrer" className="text-2xl text-white hover:text-blue-500"><FaInstagram size={30} /></a>
                         <a href="https://www.facebook.com/metaverseclub" target="_blank" rel="noreferrer" className="text-2xl text-white hover:text-blue-500"><FaFacebook size={30} /></a>
-                        <a href="https://d" target="_blank" rel="noreferrer" className="text-2xl text-white hover:text-blue-500"><FaDiscord size={33} /></a>
+                        <a href="https://discord.gg/fQvD2bRbmw" target="_blank" rel="noreferrer" className="text-2xl text-white hover:text-blue-500"><FaDiscord size={33} /></a>
                     </div>
                 </div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
