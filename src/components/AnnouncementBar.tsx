@@ -15,11 +15,11 @@ const AnnouncementBar = () => {
      
 
       <div className="lg:flex hidden items-center justify-center space-x-6 mr-10">
-        <a href="https://t.me/metaverseclub" target="_blank" rel="noreferrer" className="text-2xl text-white hover:text-blue-500"><FaTelegram /></a>
-        <a href="https://twitter.com/metaverseclub" target="_blank" rel="noreferrer" className="text-2xl text-white hover:text-blue-500"><FaTwitter /></a>
-        <a href="https://wa.me/919999999999" target="_blank" rel="noreferrer" className="text-2xl text-white hover:text-blue-500"><FaInstagram /></a>
+        <a href="https://t.me/metaverseclubofficial" target="_blank" rel="noreferrer" className="text-2xl text-white hover:text-blue-500"><FaTelegram /></a>
+        <a href="https://twitter.com/METAVERSECLUB32" target="_blank" rel="noreferrer" className="text-2xl text-white hover:text-blue-500"><FaTwitter /></a>
+        <a href="https://www.instagram.com/metaverseclub32/" target="_blank" rel="noreferrer" className="text-2xl text-white hover:text-blue-500"><FaInstagram /></a>
         <a href="https://www.facebook.com/metaverseclub" target="_blank" rel="noreferrer" className="text-2xl text-white hover:text-blue-500"><FaFacebook /></a>
-        <a href="https://d" target="_blank" rel="noreferrer" className="text-3xl text-white hover:text-blue-500"><FaDiscord /></a>
+        <a href="https://discord.gg/fQvD2bRbmw" target="_blank" rel="noreferrer" className="text-3xl text-white hover:text-blue-500"><FaDiscord /></a>
       </div>
 
     </div>
