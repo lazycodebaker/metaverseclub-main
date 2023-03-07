@@ -50,7 +50,7 @@ export const Chart: React.FC<{}> = () => {
         <section className="text-gray-600 body-font">
             <h1 className='font-bold text-5xl sm:text-7xl text-gray-50 text-center self-center mt-12'>TOKENOMICS</h1>
             <div className="container px-5 py-24 mx-auto">
-                <div className="flex flex-wrap -mx-5 -mb-10 text-center">
+                <div className="flex flex-wrap -mx-4 -mb-10 text-center ">
 
                     <div className="sm:w-3/5 w-full mb-10 px-2">
                         <div className="rounded-lg w-full h-full overflow-hidden">
@@ -58,7 +58,7 @@ export const Chart: React.FC<{}> = () => {
                         </div>
                     </div>
 
-                    <div className="sm:w-2/5 w-full h-full mb-10 ">
+                    <div className="sm:w-2/5 w-full h-full mb-10 px-6">
                         <div className="rounded-lg h-full overflow-hidden">
                             <Doughnut
                                 data={data}
