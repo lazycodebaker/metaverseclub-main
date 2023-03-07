@@ -64,11 +64,11 @@ export default function Navbar() {
         </div>
 
         <div
-          className={`w-full block flex-grow lg:flex lg:items-center lg:w-auto items-center rounded-md
+          className={`w-full block flex-grow lg:flex lg:items-center lg:w-auto items-center rounded-md sm:ml-3
               ${isNavOpen ? 'block border-t-[1px] border-white mt-4' : 'hidden'
             }`}
         >
-          <div className="text-lg font-bold lg:flex-grow pt-[4px] sm:flex items-center justify-evenly">
+          <div className="text-lg font-bold lg:flex-grow pt-[4px] sm:flex items-center sm:space-x-6">
             <a
               href="#responsive-header"
               className="block mt-4 lg:inline-block lg:mt-0 text-white hover:bg-blue-600/70 p-2 rounded-md mr-4"
