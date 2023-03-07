@@ -2,6 +2,7 @@
 import React from 'react'
 
 import { FaClipboard } from 'react-icons/fa';
+import { TokenFlags } from 'typescript';
 
 export const TokenCard: React.FC<{}> = () => {
 
@@ -44,7 +45,7 @@ export const TokenCard: React.FC<{}> = () => {
                     <div className="w-full flex space-x-5">
                     <div className="flex flex-col items-start">
                             <h1 className="font-semibold">TOKEN CONTRACT ADDRESS</h1>
-                            <div className="flex bg-gray-600 p-2 rounded-md mt-1 items-center space-x-3">
+                            <div onClick={() => {navigator.clipboard.writeText(TOKEN_CONTRACT_ADDRESS)}} className="flex cursor-pointer bg-gray-600 p-2 rounded-md mt-1 items-center space-x-3">
                                 <h1>{ TOKEN_CONTRACT_ADDRESS }</h1>
                                 <FaClipboard onClick={() => {navigator.clipboard.writeText(TOKEN_CONTRACT_ADDRESS)}} />                                
                             </div>
@@ -54,9 +55,9 @@ export const TokenCard: React.FC<{}> = () => {
                     <div className="w-full flex space-x-5">
                         <div className="flex flex-col items-start">
                             <h1 className="font-semibold">PRESALE CONTACT ADDRESS</h1>
-                            <div className="flex bg-gray-600 p-2 rounded-md mt-1 items-center space-x-3">
+                            <div onClick={() => {navigator.clipboard.writeText(PRESALE_CONRTACT_ADDRESS)}} className="flex cursor-pointer bg-gray-600 p-2 rounded-md mt-1 items-center space-x-3">
                                 <h1>{ PRESALE_CONRTACT_ADDRESS }</h1>
-                                <FaClipboard onClick={() => {navigator.clipboard.writeText(PRESALE_CONRTACT_ADDRESS)}}/>                                
+                                <FaClipboard />                                
                             </div>
                         </div>
                     </div>
