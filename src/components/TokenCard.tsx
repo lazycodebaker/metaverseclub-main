@@ -1,4 +1,8 @@
 
+import React from 'react'
+
+import { FaClipboard } from 'react-icons/fa';
+
 export const TokenCard: React.FC<{}> = () => {
     return (
         <div className="flex bg-gray-600/50 backdrop-blur-md p-3 items-center flex-col w-full h-full py-3">
@@ -34,16 +38,22 @@ export const TokenCard: React.FC<{}> = () => {
                     </div>
 
                     <div className="w-full flex space-x-5">
-                        <div className="flex flex-col items-start">
-                            <h1 className="font-semibold">TOKEN SYMBOL</h1>
-                            <h2 className="font-bold">MEMAG</h2>
+                    <div className="flex flex-col items-start">
+                            <h1 className="font-semibold">TOKEN CONTRACT ADDRESS</h1>
+                            <div className="flex bg-gray-600 p-2 rounded-md mt-1 items-center space-x-3">
+                                <h1>1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2</h1>
+                                <FaClipboard />                                
+                            </div>
                         </div>
                     </div>
 
                     <div className="w-full flex space-x-5">
                         <div className="flex flex-col items-start">
-                            <h1 className="font-semibold">TOKEN SYMBOL</h1>
-                            <h2 className="font-bold">MEMAG</h2>
+                            <h1 className="font-semibold">PRESALE CONTACT ADDRESS</h1>
+                            <div className="flex bg-gray-600 p-2 rounded-md mt-1 items-center space-x-3">
+                                <h1>1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2</h1>
+                                <FaClipboard />                                
+                            </div>
                         </div>
                     </div>
                 </div>
