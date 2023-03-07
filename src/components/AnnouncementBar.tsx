@@ -6,28 +6,13 @@ import { FaFacebook, FaWhatsapp, FaTelegram, FaTwitter, FaInstagram , FaDiscord 
 const AnnouncementBar = () => {
 
   return (
-   /* <div className="bg-black/50 flex items-center justify-between backdrop-blur-md h-10 text-center z-50 text-white">
+   <div className="bg-black/50 flex items-center justify-between backdrop-blur-md h-10 text-center z-50 text-white">
       
       <div className="flex items-center mx-10">
         <h1 className="text-lg font-bold z-50">Announcement </h1>
         <p className="text-sm ml-2 announcement -z-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
-      </div>*/
-      <div className="bg-black/50 flex items-center justify-between backdrop-blur-md h-10 text-center z-50 text-white">
-      <div className="flex items-center mx-10">
-        <h1 className="text-lg font-bold z-50">Announcement </h1>
-        <p className="text-sm ml-2 announcement -z-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
       </div>
-      <style jsx>{`
-        @media (max-width: 640px) { // Adjust this breakpoint to your needs
-          .announcement {
-            display: none; // Hide the announcement text on smaller screens
-          }
-          .flex {
-            flex-wrap: nowrap; // Prevent the flex container from wrapping to multiple lines
-            justify-content: center; // Center the content horizontally
-          }
-        }
-      `}</style>
+      
      
 
       <div className="lg:flex hidden items-center justify-center space-x-6 mr-10">
