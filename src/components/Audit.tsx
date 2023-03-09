@@ -7,13 +7,14 @@ export const Audit: React.FC<{}> = () => {
             <div className="container">
 
                 <div className="flex sm:flex-wrap sm:flex-row flex-col items-center justify-center space-x-4">
-                    <h1>Metamask</h1>
-                    <h1>Web3</h1>
-                    <h1>Chainlink</h1>
-                    <h1>Uniswap</h1>
-                    <h1>OpenSea</h1>
-                    <h1>Covalent</h1>
-                    <h1>Infura</h1>
+                    < <a className="cursor-pointer" target="_blank" rel="noreferrer" href='https://www.binance.com/en/'>
+                        <Image src={Binance} alt="Binance" width={200} height={200} />
+                    </a>
+
+                    <a className="cursor-pointer" target="_blank" rel="noreferrer" href='https://www.unrealengine.com/en-US/'>
+                        <Image src={Unreal} alt="Unreal" width={200} height={200} />
+                    </a>
+
                 </div>
 
             </div>
