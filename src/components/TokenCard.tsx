@@ -5,8 +5,8 @@ import { BiCopy } from 'react-icons/bi';
 
 export const TokenCard: React.FC<{}> = () => {
 
-    const TOKEN_CONTRACT_ADDRESS = '1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2';
-    const PRESALE_CONRTACT_ADDRESS = '1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2';
+    const TOKEN_CONTRACT_ADDRESS = '********************************';
+    const PRESALE_CONRTACT_ADDRESS = '********************************';
 
     return (
         <div className="flex bg-black/50 backdrop-blur-md p-3 items-center flex-col w-full h-full py-3">
