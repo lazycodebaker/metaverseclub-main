@@ -50,7 +50,7 @@ export default function Navbar() {
       <nav className="flex navbar fixed z-50 w-screen items-center justify-between flex-wrap bg-black/50 backdrop-blur-md p-6">
 
         <div className="flex items-center flex-shrink-0 text-white mr-6">
-          <h1 className="font-bold text-3xl tracking-tight">Metaverse Club</h1>
+          <h1 className="font-bold text-3xl tracking-tight">METAVERSE CLUB</h1>
         </div>
 
 

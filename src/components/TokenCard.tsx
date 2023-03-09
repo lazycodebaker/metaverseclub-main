@@ -37,7 +37,7 @@ export const TokenCard: React.FC<{}> = () => {
                         </div>
                         <div className="flex flex-col items-start">
                             <h1 className="font-semibold">DECIMALS</h1>
-                            <h2 className="font-bold">18</h2>
+                            <h2 className="font-bold">9</h2>
                         </div>
                     </div>
 
