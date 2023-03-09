@@ -14,14 +14,14 @@ export const Chart: React.FC<{}> = ({}) => {
 
     const data = {
         labels: [
-            'Private Sale',
-            'Presale',
-            'Foundation and Development',
-            'Marketing and CEX Listings',
-            'Founders & Partners',
-            'Advisors and Legal Teams',
-            'Liquidity',
-            'Team Allocation'
+            'Private Sale(2 %)',
+            'Presale(35 %)',
+            'Foundation and Development(10 %)',
+            'Marketing and CEX Listings(20 %)',
+            'Founders & Partners(10 %)',
+            'Advisors and Legal Teams(5 %)',
+            'Liquidity(8 %)',
+            'Team Allocation(10 %)'
         ],
         datasets: [{
             data: [2, 35, 10, 20, 10, 5, 8, 10],
@@ -39,7 +39,7 @@ export const Chart: React.FC<{}> = ({}) => {
     };
 
     return (
-        <section className="text-gray-600 bg-indigo-800 body-font w-full h-full py-5">
+        <section className="text-gray-50 bg-indigo-800 body-font w-full h-full py-5">
             <h1 className='font-bold text-5xl sm:text-7xl text-gray-50 text-center self-center mt-12'>TOKENOMICS</h1>
 
 
