@@ -1,11 +1,11 @@
 
 import Image from 'next/image';
 
-import Binance from 'public/logos/binance.jpg';
-import Unreal from 'public/logos/unreal.jpg';
 import AWS from 'public/logos/aws.png';
-import Solidity from 'public/logos/solidity.png';
+import Unreal from 'public/logos/unreal.jpg';
+import Binance from 'public/logos/binance.jpg';
 import Blender from 'public/logos/blender.png';
+import Solidity from 'public/logos/solidity.png';
 import Metamask from 'public/logos/metamask.png';
 import TrustWallet from 'public/logos/trustwallet.png';
 
