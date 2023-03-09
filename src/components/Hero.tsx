@@ -43,7 +43,7 @@ export const Hero: React.FC = () => {
         </div>
 
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full rounded-md">
-          <div className='w-full h-full flex flex-col items-center bg-indigo-700 rounded-lg p-1 '>
+          <div className='w-full h-full flex flex-col items-center bg-black/50 backdrop-blur-md rounded-lg p-1 '>
 
             <h1 className='text-4xl py-6 self-center text-center font-bold text-gray-50'>
               Last Stage
