@@ -35,24 +35,13 @@ export const Chart: React.FC<{}> = ({}) => {
                 '#5271ff',
                 '#004aad'
             ],
-            hoverBackgroundColor: [
-                '#ff66c4',
-                '#cb6ce6',
-                '#0097b2',
-                '#0cc0df',
-                '#5ce1e6',
-                '#38b6ff',
-                '#5271ff',
-                '#004aad'
-            ]
         }]
     };
 
     return (
-        <section className="text-gray-600 body-font">
+        <section className="text-gray-600 bg-indigo-800 body-font w-full h-full py-5">
             <h1 className='font-bold text-5xl sm:text-7xl text-gray-50 text-center self-center mt-12'>TOKENOMICS</h1>
 
-            <img src={Background.src} className='w-full -z-10 h-full absolute ' />
 
             <div className="container px-5 py-24 mx-auto z-50">
                 <div className="flex flex-wrap -mx-4 -mb-10 text-center ">
@@ -64,9 +53,10 @@ export const Chart: React.FC<{}> = ({}) => {
                     </div>
 
                     <div className="sm:w-2/5 w-full h-full mb-10 px-6 z-50">
-                        <div className="rounded-lg h-full overflow-hidden">
+                        <div className="rounded-lg h-full overflow-hidden font-bold text-white">
                             <Doughnut
                                 data={data}
+                                style={{ color: 'white' }}
                                 options={{
                                     plugins: {
                                         legend: { "align": "start", "position": "bottom" },

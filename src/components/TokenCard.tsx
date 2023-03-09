@@ -9,7 +9,7 @@ export const TokenCard: React.FC<{}> = () => {
     const PRESALE_CONRTACT_ADDRESS = '1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2';
 
     return (
-        <div className="flex bg-gray-600/50 backdrop-blur-md p-3 items-center flex-col w-full h-full py-3">
+        <div className="flex bg-black/50 backdrop-blur-md p-3 items-center flex-col w-full h-full py-3">
             <h1 className="font-bold text-4xl text-gray-50 text-center">Token Details</h1>
 
             <div className="flex w-full text-gray-50 flex-wrap px-2 py-5 ">
