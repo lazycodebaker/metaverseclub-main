@@ -12,6 +12,7 @@ import { ethereumClient } from '@/context/WalletConnect';
 import { Chart } from '@/components/Chart';
 import { Roadmap } from '@/components/Roadmap';
 import { PoweredBy } from '@/components/PoweredBy';
+import { Teams } from '@/components/Teams';
 
 export default function Home() {
   return (
@@ -44,6 +45,7 @@ export default function Home() {
         <Chart />
         <Roadmap />
         <PoweredBy />
+        <Teams />
       </main>
     </>
   );
