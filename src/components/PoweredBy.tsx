@@ -17,33 +17,33 @@ export const PoweredBy: React.FC<{}> = () => {
             <div className="container">
 
                 <div className="flex sm:flex-wrap sm:flex-row flex-col items-center justify-center space-x-2">
-                    <div>
+                    <a className="cursor-pointer" target="_blank" href='https://www.binance.com/en/'>
                         <Image src={Binance} alt="Binance" width={200} height={200} />
-                    </div>
+                    </a>
 
-                    <div>
+                    <a className="cursor-pointer" target="_blank" href='https://www.unrealengine.com/en-US/'>
                         <Image src={Unreal} alt="Unreal" width={200} height={200} />
-                    </div>
+                    </a>
 
-                    <div>
+                    <a className="cursor-pointer" target="_blank" href='https://aws.amazon.com/'>
                         <Image src={AWS} alt="AWS" width={80} height={80} />
-                    </div>
+                    </a>
                     
-                    <div>
+                    <a className="cursor-pointer" target="_blank" href='https://docs.soliditylang.org/en/'>
                         <Image src={Solidity} alt="Solidity" width={100} height={100} className="invert" />
-                    </div>
+                    </a>
                     
-                    <div>
+                    <a className="cursor-pointer" target="_blank" href='https://www.blender.org/'>
                         <Image src={Blender} alt="Blender" width={150} height={150} />
-                    </div>
+                    </a>
                     
-                    <div>
+                    <a className="cursor-pointer" target="_blank" href='https://metamask.io/'>
                         <Image src={Metamask} alt="Metamask" width={67} height={67} />
-                    </div>
+                    </a>
 
-                    <div>
+                    <a className="cursor-pointer" target="_blank" href='https://trustwallet.com/'>
                         <Image src={TrustWallet} alt="TrustWallet" width={60} height={60} />
-                    </div>
+                    </a>
 
                 </div>
 

@@ -21,7 +21,6 @@ export const About: React.FC = () => {
                         <a href="https://t.me/metaverseclubofficial" target="_blank" rel="noreferrer" className="text-2xl text-white hover:text-blue-500"><FaTelegram size={30} /></a>
                         <a href="https://twitter.com/METAVERSECLUB32" target="_blank" rel="noreferrer" className="text-2xl text-white hover:text-blue-500"><FaTwitter size={30} /></a>
                         <a href="https://www.instagram.com/metaverseclub32/" target="_blank" rel="noreferrer" className="text-2xl text-white hover:text-blue-500"><FaInstagram size={30} /></a>
-                        <a href="https://www.facebook.com/metaverseclub" target="_blank" rel="noreferrer" className="text-2xl text-white hover:text-blue-500"><FaFacebook size={30} /></a>
                         <a href="https://discord.gg/fQvD2bRbmw" target="_blank" rel="noreferrer" className="text-2xl text-white hover:text-blue-500"><FaDiscord size={33} /></a>
                     </div>
                 </div>
