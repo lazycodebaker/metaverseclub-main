@@ -91,7 +91,7 @@ export default function Navbar() {
               href="#responsive-header"
               className="block mt-4 lg:inline-block lg:mt-0 text-white hover:bg-blue-600/70 p-2 rounded-md"
             >
-              WIN $100K
+              WIN $50K
             </a>
             <a
               href="#responsive-header"
