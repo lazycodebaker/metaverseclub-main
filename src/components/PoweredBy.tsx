@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Binance from  'public/logos/binance.jpg';
 import Unreal from  'public/logos/unreal.jpg';
 import AWS from  'public/logos/aws.png';
-import Solidity from  'public/logos/solidity.jpg';
+import Solidity from  'public/logos/solidity.png';
 import Blender from  'public/logos/blender.png';
 import Metamask from  'public/logos/metamask.png';
 import TrustWallet from  'public/logos/trustwallet.png';
@@ -30,7 +30,7 @@ export const PoweredBy: React.FC<{}> = () => {
                     </div>
                     
                     <div>
-                        <Image src={Solidity} alt="Solidity" width={200} height={200} />
+                        <Image src={Solidity} alt="Solidity" width={100} height={100} className="invert" />
                     </div>
                     
                     <div>
@@ -38,11 +38,11 @@ export const PoweredBy: React.FC<{}> = () => {
                     </div>
                     
                     <div>
-                        <Image src={Metamask} alt="Metamask" width={100} height={100} />
+                        <Image src={Metamask} alt="Metamask" width={67} height={67} />
                     </div>
 
                     <div>
-                        <Image src={TrustWallet} alt="TrustWallet" width={100} height={100} />
+                        <Image src={TrustWallet} alt="TrustWallet" width={60} height={60} />
                     </div>
 
                 </div>
