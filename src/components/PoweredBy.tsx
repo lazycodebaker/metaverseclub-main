@@ -17,31 +17,32 @@ export const PoweredBy: React.FC<{}> = () => {
             <div className="container">
 
                 <div className="flex sm:flex-wrap sm:flex-row flex-col items-center justify-center space-x-2">
-                    <a className="cursor-pointer" target="_blank" href='https://www.binance.com/en/'>
+                    
+                    <a className="cursor-pointer" target="_blank" rel="noreferrer" href='https://www.binance.com/en/'>
                         <Image src={Binance} alt="Binance" width={200} height={200} />
                     </a>
 
-                    <a className="cursor-pointer" target="_blank" href='https://www.unrealengine.com/en-US/'>
+                    <a className="cursor-pointer" target="_blank" rel="noreferrer" href='https://www.unrealengine.com/en-US/'>
                         <Image src={Unreal} alt="Unreal" width={200} height={200} />
                     </a>
 
-                    <a className="cursor-pointer" target="_blank" href='https://aws.amazon.com/'>
+                    <a className="cursor-pointer" target="_blank" rel="noreferrer" href='https://aws.amazon.com/'>
                         <Image src={AWS} alt="AWS" width={80} height={80} />
                     </a>
                     
-                    <a className="cursor-pointer" target="_blank" href='https://docs.soliditylang.org/en/'>
+                    <a className="cursor-pointer" target="_blank" rel="noreferrer" href='https://docs.soliditylang.org/en/'>
                         <Image src={Solidity} alt="Solidity" width={100} height={100} className="invert" />
                     </a>
                     
-                    <a className="cursor-pointer" target="_blank" href='https://www.blender.org/'>
+                    <a className="cursor-pointer" target="_blank" rel="noreferrer" href='https://www.blender.org/'>
                         <Image src={Blender} alt="Blender" width={150} height={150} />
                     </a>
                     
-                    <a className="cursor-pointer" target="_blank" href='https://metamask.io/'>
+                    <a className="cursor-pointer" target="_blank" rel="noreferrer" href='https://metamask.io/'>
                         <Image src={Metamask} alt="Metamask" width={67} height={67} />
                     </a>
 
-                    <a className="cursor-pointer" target="_blank" href='https://trustwallet.com/'>
+                    <a className="cursor-pointer" target="_blank" rel="noreferrer" href='https://trustwallet.com/'>
                         <Image src={TrustWallet} alt="TrustWallet" width={60} height={60} />
                     </a>
 
