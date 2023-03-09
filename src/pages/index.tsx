@@ -15,6 +15,7 @@ import { PoweredBy } from '@/components/PoweredBy';
 import { Teams } from '@/components/Teams';
 import { SeenBy } from '@/components/SeenBy';
 import { Audit } from '@/components/Audit';
+import { Footer } from '@/components/Footer';
 
 export default function Home() {
   return (
@@ -50,6 +51,7 @@ export default function Home() {
         <Teams />
         <SeenBy />
         <Audit />
+        <Footer />
       </main>
     </>
   );
