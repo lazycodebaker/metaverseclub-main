@@ -1,4 +1,7 @@
 
+import Solid from 'public/logos/solid.png';
+import Certik from 'public/logos/certik.png';
+
 export const Audit: React.FC<{}> = () => {
     return (
         <div className="flex flex-col items-center justify-center pt-16">
@@ -7,12 +10,12 @@ export const Audit: React.FC<{}> = () => {
             <div className="container">
 
                 <div className="flex sm:flex-wrap sm:flex-row flex-col items-center justify-center space-x-4">
-                    < <a className="cursor-pointer" target="_blank" rel="noreferrer" href='https://www.binance.com/en/'>
-                        <Image src={Binance} alt="Binance" width={200} height={200} />
+                    < <a className="cursor-pointer" target="_blank" rel="noreferrer" href='https://solidproof.io/'>
+                        <Image src={Solid} alt="Binance" width={200} height={200} />
                     </a>
 
-                    <a className="cursor-pointer" target="_blank" rel="noreferrer" href='https://www.unrealengine.com/en-US/'>
-                        <Image src={Unreal} alt="Unreal" width={200} height={200} />
+                    <a className="cursor-pointer" target="_blank" rel="noreferrer" href='https://www.certik.com/'>
+                        <Image src={Certik} alt="Unreal" width={200} height={200} />
                     </a>
 
                 </div>
