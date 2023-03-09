@@ -1,13 +1,13 @@
 
 import Image from 'next/image';
 
-import Binance from  'public/logos/binance.jpg';
-import Unreal from  'public/logos/unreal.jpg';
-import AWS from  'public/logos/aws.png';
-import Solidity from  'public/logos/solidity.png';
-import Blender from  'public/logos/blender.png';
-import Metamask from  'public/logos/metamask.png';
-import TrustWallet from  'public/logos/trustwallet.png';
+import Binance from 'public/logos/binance.jpg';
+import Unreal from 'public/logos/unreal.jpg';
+import AWS from 'public/logos/aws.png';
+import Solidity from 'public/logos/solidity.png';
+import Blender from 'public/logos/blender.png';
+import Metamask from 'public/logos/metamask.png';
+import TrustWallet from 'public/logos/trustwallet.png';
 
 export const PoweredBy: React.FC<{}> = () => {
     return (
@@ -17,7 +17,7 @@ export const PoweredBy: React.FC<{}> = () => {
             <div className="container">
 
                 <div className="flex sm:flex-wrap sm:flex-row flex-col items-center justify-center space-x-2">
-                    
+
                     <a className="cursor-pointer" target="_blank" rel="noreferrer" href='https://www.binance.com/en/'>
                         <Image src={Binance} alt="Binance" width={200} height={200} />
                     </a>
@@ -29,15 +29,15 @@ export const PoweredBy: React.FC<{}> = () => {
                     <a className="cursor-pointer" target="_blank" rel="noreferrer" href='https://aws.amazon.com/'>
                         <Image src={AWS} alt="AWS" width={80} height={80} />
                     </a>
-                    
+
                     <a className="cursor-pointer" target="_blank" rel="noreferrer" href='https://docs.soliditylang.org/en/'>
                         <Image src={Solidity} alt="Solidity" width={100} height={100} className="invert" />
                     </a>
-                    
+
                     <a className="cursor-pointer" target="_blank" rel="noreferrer" href='https://www.blender.org/'>
                         <Image src={Blender} alt="Blender" width={150} height={150} />
                     </a>
-                    
+
                     <a className="cursor-pointer" target="_blank" rel="noreferrer" href='https://metamask.io/'>
                         <Image src={Metamask} alt="Metamask" width={67} height={67} />
                     </a>
