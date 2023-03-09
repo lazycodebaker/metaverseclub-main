@@ -13,6 +13,8 @@ import { Chart } from '@/components/Chart';
 import { Roadmap } from '@/components/Roadmap';
 import { PoweredBy } from '@/components/PoweredBy';
 import { Teams } from '@/components/Teams';
+import { SeenBy } from '@/components/SeenBy';
+import { Audit } from '@/components/Audit';
 
 export default function Home() {
   return (
@@ -46,6 +48,8 @@ export default function Home() {
         <Roadmap />
         <PoweredBy />
         <Teams />
+        <SeenBy />
+        <Audit />
       </main>
     </>
   );

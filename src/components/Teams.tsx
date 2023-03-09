@@ -68,7 +68,6 @@ export const Teams: React.FC<{}> = () => {
                     </div>
                 </section>
             </div>
-
         </div>
-    )
+    );
 };
