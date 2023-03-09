@@ -18,22 +18,22 @@ export const TokenCard: React.FC<{}> = () => {
                     <div className="w-full flex space-x-5 ">
                         <div className="flex flex-col items-start">
                             <h1 className="font-semibold">TOKEN NAME</h1>
-                            <h2 className="font-bold">Metro Monsters Guild</h2>
+                            <h2 className="font-bold">METAVERSE CLUB</h2>
                         </div>
                         <div className="flex flex-col items-start">
                             <h1 className="font-semibold">TOKEN SALE STAGES</h1>
-                            <h2 className="font-bold">7</h2>
+                            <h2 className="font-bold">FIRST</h2>
                         </div>
                         <div className="flex flex-col items-start">
                             <h1 className="font-semibold">TOKEN TYPE</h1>
-                            <h2 className="font-bold">ERC-20 (Ethereum)</h2>
+                            <h2 className="font-bold">BEP-20 (BSC)</h2>
                         </div>
                     </div>
 
                     <div className="w-full flex space-x-5">
                         <div className="flex flex-col items-start">
                             <h1 className="font-semibold">TOKEN SYMBOL</h1>
-                            <h2 className="font-bold">MEMAG</h2>
+                            <h2 className="font-bold">MCLUB</h2>
                         </div>
                         <div className="flex flex-col items-start">
                             <h1 className="font-semibold">DECIMALS</h1>
@@ -68,17 +68,17 @@ export const TokenCard: React.FC<{}> = () => {
                     <div className="flex flex-col items-center space-y-4 text-sm py-3">
                         <div className="flex flex-col items-start">
                             <h1 className="font-semibold">CURRENT STAGE SUPPLY</h1>
-                            <h2 className="font-bold text-lg">35,000,000</h2>
+                            <h2 className="font-bold text-lg">350,000,000</h2>
                         </div>
 
                         <div className="flex flex-col items-start">
                             <h1 className="font-semibold">CURRENT STAGE PRICE</h1>
-                            <h2 className="font-bold text-lg">1 MEMAG = $0.023</h2>
+                            <h2 className="font-bold text-lg">1 MCLUB = $0.029</h2>
                         </div>
 
                         <div className="flex flex-col items-start">
                             <h1 className="font-semibold ">EXCHANGE LISTING PRICE</h1>
-                            <h2 className="font-bold text-lg">1 MEMAG = $0.023</h2>
+                            <h2 className="font-bold text-lg">1 MCLUB = $0.035</h2>
                         </div>
                     </div>
                 </div>
