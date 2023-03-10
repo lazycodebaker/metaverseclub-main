@@ -7,7 +7,7 @@ export const Footer: React.FC<{}> = () => {
                 Disclaimer: Your investment may go down as well as up in value. Cryptocurrency is not regulated in the UK.
             </h1>
             <h1 className="text-gray-100 text-md font-bold">
-                @COPYRIGHT 2023 BY METVERSE CLUB. ALL RIGHTS RESERVED.
+                @COPYRIGHT 2023 BY METAVERSE CLUB. ALL RIGHTS RESERVED.
             </h1>
         </div>
     );
