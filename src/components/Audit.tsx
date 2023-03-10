@@ -9,7 +9,7 @@ export const Audit: React.FC<{}> = () => {
 
             <div className="container">
 
-                <div className="flex sm:flex-wrap sm:flex-row flex-col items-center justify-center space-x-2">
+                <div className="flex sm:flex-wrap sm:flex-row flex-col items-center justify-center space-x-2 sm:space-y-0 space-y-6">
                     <a className="cursor-pointer" target="_blank" rel="noreferrer" href='https://solidproof.io/'>
                         <Image src={Solid} alt="Binance" width={200} height={200} />
                     </a>
