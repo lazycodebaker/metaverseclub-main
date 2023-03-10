@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Solid from 'public/logos/solid.png';
 import Certik from 'public/logos/certik.png';
 
