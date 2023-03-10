@@ -1,5 +1,5 @@
-import Solid from '/public/logos/solid.png';
-import Certik from '/public/logos/certik.png';
+import Solid from 'public/logos/solid.png';
+import Certik from 'public/logos/certik.png';
 
 export const Audit: React.FC<{}> = () => {
     return (
@@ -8,7 +8,7 @@ export const Audit: React.FC<{}> = () => {
 
             <div className="container">
 
-                <div className="flex sm:flex-wrap sm:flex-row flex-col items-center justify-center space-x-4">
+                <div className="flex sm:flex-wrap sm:flex-row flex-col items-center justify-center space-x-2">
                     < <a className="cursor-pointer" target="_blank" rel="noreferrer" href='https://solidproof.io/'>
                         <Image src={Solid} alt="Binance" width={200} height={200} />
                     </a>
