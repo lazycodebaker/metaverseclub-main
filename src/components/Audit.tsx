@@ -1,5 +1,5 @@
-import Solid from 'public/logos/solid.png';
-import Certik from 'public/logos/certik.png';
+import Solid from '/public/logos/solid.png';
+import Certik from '/public/logos/certik.png';
 
 export const Audit: React.FC<{}> = () => {
     return (
