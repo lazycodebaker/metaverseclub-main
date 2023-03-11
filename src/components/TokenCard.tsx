@@ -26,7 +26,7 @@ export const TokenCard: React.FC<{}> = () => {
                         </div>
                         <div className="flex flex-col items-start">
                             <h1 className="font-semibold">TOKEN TYPE</h1>
-                            <h2 className="font-bold">BEP-20 (BSC)</h2>
+                            <h2 className="font-bold">ERC-20 (ARBITRUM)</h2>
                         </div>
                     </div>
 
@@ -37,7 +37,7 @@ export const TokenCard: React.FC<{}> = () => {
                         </div>
                         <div className="flex flex-col items-start">
                             <h1 className="font-semibold">DECIMALS</h1>
-                            <h2 className="font-bold">9</h2>
+                            <h2 className="font-bold">18</h2>
                         </div>
                     </div>
 
@@ -68,7 +68,7 @@ export const TokenCard: React.FC<{}> = () => {
                     <div className="flex flex-col items-center space-y-4 text-sm py-3">
                         <div className="flex flex-col items-start">
                             <h1 className="font-semibold">CURRENT STAGE SUPPLY</h1>
-                            <h2 className="font-bold text-lg">350,000,000</h2>
+                            <h2 className="font-bold text-lg">250,000,000</h2>
                         </div>
 
                         <div className="flex flex-col items-start">
