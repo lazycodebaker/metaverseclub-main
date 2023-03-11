@@ -15,16 +15,16 @@ export const Chart: React.FC<{}> = ({}) => {
     const data = {
         labels: [
             'Private Sale(2 %)',
-            'Presale(35 %)',
-            'Foundation and Development(10 %)',
+            'Presale(25 %)',
+            'Foundation and Development(15 %)',
             'Marketing and CEX Listings(20 %)',
-            'Founders & Partners(10 %)',
+            'Founders & Partners(15 %)',
             'Advisors and Legal Teams(5 %)',
             'Liquidity(8 %)',
             'Team Allocation(10 %)'
         ],
         datasets: [{
-            data: [2, 35, 10, 20, 10, 5, 8, 10],
+            data: [2, 25, 15, 20, 15, 5, 8, 10],
             backgroundColor: [
                 '#ff66c4',
                 '#cb6ce6',

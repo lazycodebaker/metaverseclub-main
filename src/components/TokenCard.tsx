@@ -73,12 +73,12 @@ export const TokenCard: React.FC<{}> = () => {
 
                         <div className="flex flex-col items-start">
                             <h1 className="font-semibold">CURRENT STAGE PRICE</h1>
-                            <h2 className="font-bold text-lg">1 MCLUB = $0.029</h2>
+                            <h2 className="font-bold text-lg">1 MCLUB = $0.04</h2>
                         </div>
 
                         <div className="flex flex-col items-start">
                             <h1 className="font-semibold ">EXCHANGE LISTING PRICE</h1>
-                            <h2 className="font-bold text-lg">1 MCLUB = $0.035</h2>
+                            <h2 className="font-bold text-lg">1 MCLUB = $0.045</h2>
                         </div>
                     </div>
                 </div>
