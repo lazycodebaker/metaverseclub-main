@@ -52,7 +52,7 @@ export const Chart: React.FC<{}> = ({}) => {
                         </div>
                     </div>
 
-                    <div className="sm:w-2/5 w-full h-full mb-10 px-6 z-50">
+                    <div className="sm:w-2/5 w-full h-full mb-10 px-6 ">
                         <div className="rounded-lg h-full overflow-hidden font-bold text-white">
                             <Doughnut
                                 data={data}
