@@ -24,7 +24,7 @@ export const SeenBy: React.FC<{}> = () => {
                     </a>
 
                     <a className="cursor-pointer" target="_blank" rel="noreferrer" href="https://www.bloomberg.com//">
-                        <Image src={Bloom} alt="Cryptonaute" width={80} height={80} />
+                        <Image src={Bloom} alt="Cryptonaute" width={100} height={100} />
                     </a>
 
                 </div>
