@@ -1,7 +1,7 @@
 
 import React from "react";
 
-import RoadmapImg from 'public/images/roadmap.jpg';
+import RoadmapImg from 'public/images/roadmap.png';
 import Image from "next/image";
 
 export const Roadmap: React.FC<{}> = () => {
