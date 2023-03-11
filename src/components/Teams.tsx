@@ -1,8 +1,8 @@
 import Image from 'next/image';
-import Shivam from 'public/logos/solid.png';
-import Alok from 'public/logos/certik.png';
-import Anshuman from 'public/logos/solid.png';
-import Arpit from 'public/logos/certik.png';
+import Shivam from 'public/images/Shivam.jpg';
+import Alok from 'public/images/Alok.jpg';
+import Anshuman from 'public/images/Anshuman.jpg';
+import Arpit from 'public/images/Arpit.jpg';
 
 export const Teams: React.FC<{}> = () => {
     return (
