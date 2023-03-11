@@ -4,7 +4,7 @@ import Image from "next/image";
 
 import Mint from "public/logos/mint.png";
 import EconomicTimes from "public/logos/economictimes.jpg";
-import Cryptonaute from "public/logos/cryptonaute.png";
+import Bloom from "public/logos/bloom.png";
 
 export const SeenBy: React.FC<{}> = () => {
     return (
@@ -23,8 +23,8 @@ export const SeenBy: React.FC<{}> = () => {
                         <Image src={EconomicTimes} alt="Economic Times" width={80} height={80} />
                     </a>
 
-                    <a className="cursor-pointer" target="_blank" rel="noreferrer" href="https://cryptonaute.fr/">
-                        <Image src={Cryptonaute} alt="Cryptonaute" width={80} height={80} />
+                    <a className="cursor-pointer" target="_blank" rel="noreferrer" href="https://www.bloomberg.com//">
+                        <Image src={Bloom} alt="Cryptonaute" width={80} height={80} />
                     </a>
 
                 </div>
