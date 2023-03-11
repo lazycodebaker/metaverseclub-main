@@ -21,7 +21,7 @@ export const Teams: React.FC<{}> = () => {
                                 <Image className="object-center object-cover rounded-full h-36 w-36" src={Shivam} alt="photo" />
                             </div>
                             <div className="text-center">
-                                <p className="text-xl text-white font-bold mb-2">Dany Bailey</p>
+                                <p className="text-xl text-white font-bold mb-2">Shivam Verma</p>
                                 <p className="text-base text-gray-400 font-normal">Software Engineer</p>
                             </div>
                         </div>
@@ -30,7 +30,7 @@ export const Teams: React.FC<{}> = () => {
                                 <Image className="object-center object-cover rounded-full h-36 w-36" src={Alok} alt="photo" />
                             </div>
                             <div className="text-center">
-                                <p className="text-xl text-white font-bold mb-2">Lucy Carter</p>
+                                <p className="text-xl text-white font-bold mb-2">Alok</p>
                                 <p className="text-base text-gray-400 font-normal">Graphic Designer</p>
                             </div>
                         </div>
@@ -39,7 +39,7 @@ export const Teams: React.FC<{}> = () => {
                                 <Image className="object-center object-cover rounded-full h-36 w-36" src={Anshuman} alt="photo" />
                             </div>
                             <div className="text-center">
-                                <p className="text-xl text-white font-bold mb-2">Jade Bradley</p>
+                                <p className="text-xl text-white font-bold mb-2">Anshuman Tiwari</p>
                                 <p className="text-base text-gray-400 font-normal">Dev Ops</p>
                             </div>
                         </div>
@@ -48,7 +48,7 @@ export const Teams: React.FC<{}> = () => {
                                 <Image className="object-center object-cover rounded-full h-36 w-36" src={Arpit} alt="photo" />
                             </div>
                             <div className="text-center">
-                                <p className="text-xl text-white font-bold mb-2">Dany Bailey</p>
+                                <p className="text-xl text-white font-bold mb-2">Arpit</p>
                                 <p className="text-base text-gray-400 font-normal">Software Engineer</p>
                             </div>
                         </div>
