@@ -4,7 +4,7 @@ import Image from "next/image";
 
 import Mint from "public/logos/mint.png";
 import EconomicTimes from "public/logos/economictimes.jpg";
-import Bloom from "public/logos/bloom.png";
+import Bloom from "public/logos/bloom1.png";
 
 export const SeenBy: React.FC<{}> = () => {
     return (
