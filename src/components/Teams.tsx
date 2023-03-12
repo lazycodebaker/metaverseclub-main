@@ -11,7 +11,7 @@ export const Teams: React.FC<{}> = () => {
             <div className="w-full bg-blue-600">
                 <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-12">
                     <div className="text-center pb-12">
-                        <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl font-heading text-white">
+                        <h1 className="font-bold text-5xl md:text-5xl lg:text-5xl font-heading text-white">
                             CHECK OUT OUR TEAM
                         </h1>
                     </div>
