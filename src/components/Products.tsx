@@ -27,7 +27,7 @@ import imageBArena from 'public/images/aboutb1.jpg';
 export const Products: React.FC = () => {
     return (
         <section className="text-gray-600 body-font pt-16 ">
-            <h1 className='font-bold text-5xl sm:text-5xl text-gray-50 text-center self-center mb-12'>OUR PRODUCTS </h1>
+            <h1 className='font-bold text-5xl sm:text-7xl text-gray-50 text-center self-center mb-12'>OUR PRODUCTS </h1>
 
             <Product
                 desc={"MCLUB casino is the worlds frist fully decentralized  blockchain NFT-based casino games . MCLUB casino is a new breed of online gambling platform that operate using blockchain technology. Unlike traditional online casinos that rely on a centralized server to manage their operations, MCLUB casinos run on a decentralized network, which ensures transparency, security, and fairness.MCLUB casino also provide dealership to our users in which any one can become dealer on our platform . So we will become  more transparent .User who want to become a dealer they have to buy NFT passes to become a dealer on MCLUB."}
