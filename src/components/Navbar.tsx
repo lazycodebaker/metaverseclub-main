@@ -24,7 +24,7 @@ export default function Navbar() {
     const walletconnect = document.querySelector('.walletconnect');
 
     if (navbar) {
-      if (window.scrollY > 0) {
+      if (window.scrollY > 50) {
         navbar.classList.add('fixed');
         navbar.classList.add('top-0');
       } else {
