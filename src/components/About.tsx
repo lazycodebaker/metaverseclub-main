@@ -25,9 +25,9 @@ export const About: React.FC = () => {
                     </div>
                 </div>
 
-                <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 px-10">
                     <iframe
-                        width="560"
+                        width="100%"
                         height="315"
                         src="https://www.youtube.com/embed/5U_qIHFotJQ"
                         frameBorder="0"
