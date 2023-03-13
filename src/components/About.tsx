@@ -25,8 +25,9 @@ export const About: React.FC = () => {
                     </div>
                 </div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                    <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600" />
-                </div>
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/HwT1dRYtoaY" frameborder="0" allowfullscreen></iframe>
+</div>
+
             </div>
 
         </section>
