@@ -3,6 +3,8 @@
 import React, { useContext } from 'react';
 
 import { Web3Button } from '@web3modal/react';
+import { FaArrowCircleRight } from 'react-icons/fa';
+import {BsBoxArrowUpRight} from 'react-icons/bs';
 
 
 export const Hero: React.FC = () => {
@@ -40,6 +42,12 @@ export const Hero: React.FC = () => {
           <h1 className="welcome title-font sm:text-7xl text-4xl mb-10 font-bold text-gray-50">
             WELCOME <br /> TO <br /> METAVERSE CLUB
           </h1>
+ 
+          <div className="flex items-center justify-center bg-gray-50 hover:bg-gray-200 cursor-pointer font-bold text-lg px-8 py-2 rounded-md">
+            <h1 className='text-gray-900'>WhitePaper</h1>
+            <BsBoxArrowUpRight className='inline-block ml-2 font-bold text-gray-900' size={20} />
+          </div>
+
         </div>
 
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full rounded-md">
