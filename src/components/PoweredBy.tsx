@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 import AWS from 'public/logos/aws.png';
 import Unreal from 'public/logos/unreal.jpg';
-import Binance from 'public/logos/binance.jpg';
+import Arbitrum from 'public/logos/arbitrum.png';
 import Blender from 'public/logos/blender.png';
 import Solidity from 'public/logos/solidity.png';
 import Metamask from 'public/logos/metamask.png';
@@ -18,8 +18,8 @@ export const PoweredBy: React.FC<{}> = () => {
 
                 <div className="flex sm:flex-wrap sm:flex-row flex-col items-center justify-center space-x-2">
 
-                    <a className="cursor-pointer" target="_blank" rel="noreferrer" href='https://www.binance.com/en/'>
-                        <Image src={Binance} alt="Binance" width={200} height={200} />
+                    <a className="cursor-pointer" target="_blank" rel="noreferrer" href='https://arbitrum.io/'>
+                        <Image src={Arbitrum} alt="Arbitrum" width={200} height={200} />
                     </a>
 
                     <a className="cursor-pointer" target="_blank" rel="noreferrer" href='https://www.unrealengine.com/en-US/'>
