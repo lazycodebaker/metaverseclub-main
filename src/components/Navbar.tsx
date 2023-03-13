@@ -3,7 +3,10 @@ import { useContext, useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import AnnouncementBar from './AnnouncementBar';
 
+import MetaverseclubLogo from 'public/logos/metaverseclub.png';
+
 import { Web3Button } from '@web3modal/react';
+import Image from 'next/image';
 
 
 export default function Navbar() {
@@ -50,7 +53,9 @@ export default function Navbar() {
       <nav className="flex navbar fixed z-50 w-screen items-center justify-between flex-wrap bg-black/50 backdrop-blur-md p-6">
 
         <div className="flex items-center flex-shrink-0 text-white mr-6">
-          <h1 className="font-bold text-3xl tracking-tight">METAVERSE CLUB</h1>
+          <h1 className="font-bold text-3xl tracking-tight">
+            <Image src={MetaverseclubLogo} alt="Metaverse Club" width={50} height={50} />            
+          </h1>
         </div>
 
 
