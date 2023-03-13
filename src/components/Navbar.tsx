@@ -8,6 +8,7 @@ import MetaverseclubLogo from 'public/logos/mclublogo.png';
 import { Web3Button } from '@web3modal/react';
 import Image from 'next/image';
 
+import { Link } from 'react-scroll';
 
 export default function Navbar() {
   const [isNavOpen, setIsNavOpen] = useState<boolean>(false);
@@ -54,7 +55,7 @@ export default function Navbar() {
 
         <div className="flex items-center flex-shrink-0 text-white mr-6">
           <h1 className="font-bold text-3xl tracking-tight">
-            <Image src={MetaverseclubLogo} alt="Metaverse Club" width={50} height={50} />            
+            <Image src={MetaverseclubLogo} alt="Metaverse Club" width={50} height={50} />
           </h1>
         </div>
 
@@ -74,33 +75,33 @@ export default function Navbar() {
             }`}
         >
           <div className="text-lg font-bold lg:flex-grow pt-[4px] sm:flex items-center sm:space-x-6">
-            <a
-              href="#responsive-header"
-              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:bg-blue-600/70 p-2 rounded-md mr-4"
+            <Link
+              to="About" smooth={true} duration={500}
+              className="cursor-pointer block mt-4 lg:inline-block lg:mt-0 text-white hover:bg-blue-600/70 p-2 rounded-md mr-4"
             >
               ABOUT
-            </a>
-            <a
-              href="#responsive-header"
-              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:bg-blue-600/70 p-2 rounded-md mr-4"
+            </Link>
+            <Link
+              to="Products" smooth={true} duration={500}
+              className="cursor-pointer block mt-4 lg:inline-block lg:mt-0 text-white hover:bg-blue-600/70 p-2 rounded-md mr-4"
             >
               PRODUCTS
-            </a>
-            <a
-              href="#responsive-header"
-              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:bg-blue-600/70 p-2 rounded-md"
+            </Link>
+            <Link
+              to="Roadmap" smooth={true} duration={500}
+              className="cursor-pointer block mt-4 lg:inline-block lg:mt-0 text-white hover:bg-blue-600/70 p-2 rounded-md"
             >
               ROADMAP
-            </a>
+            </Link>
             <a
               href="#responsive-header"
-              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:bg-blue-600/70 p-2 rounded-md"
+              className="cursor-pointer block mt-4 lg:inline-block lg:mt-0 text-white hover:bg-blue-600/70 p-2 rounded-md"
             >
               WIN $50K
             </a>
             <a
               href="#responsive-header"
-              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:bg-blue-700 p-2 rounded-md"
+              className="cursor-pointer block mt-4 lg:inline-block lg:mt-0 text-white hover:bg-blue-700 p-2 rounded-md"
             >
               NEW TO CRYPTO?
             </a>
