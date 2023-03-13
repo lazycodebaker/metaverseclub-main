@@ -59,7 +59,7 @@ export default function Navbar() {
         </div>
 
 
-        <div className="block lg:hidden backdrop-blur-md rounded-md">
+        <div className="block lg:hidden backdrop-blur-md text-white  rounded-md z-50">
           <button
             className="flex items-center px-3 py-2 text-whitehover:text-white rounded-md"
             onClick={() => setIsNavOpen(!isNavOpen)}
