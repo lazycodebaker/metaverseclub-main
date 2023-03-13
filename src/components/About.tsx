@@ -24,9 +24,10 @@ export const About: React.FC = () => {
                         <a href="https://discord.gg/fQvD2bRbmw" target="_blank" rel="noreferrer" className="text-2xl text-white hover:text-blue-500"><FaDiscord size={33} /></a>
                     </div>
                 </div>
+              
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/HwT1dRYtoaY" frameborder="0" allowfullscreen></iframe>
-                </div>
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/HwT1dRYtoaY" frameborder="0" allowfullscreen></iframe>
+</div>
 
             </div>
 
