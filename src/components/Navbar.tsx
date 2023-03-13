@@ -3,7 +3,7 @@ import { useContext, useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import AnnouncementBar from './AnnouncementBar';
 
-import MetaverseclubLogo from 'public/logos/metaverseclub.png';
+import MetaverseclubLogo from 'public/logos/mclublogo.png';
 
 import { Web3Button } from '@web3modal/react';
 import Image from 'next/image';
