@@ -29,7 +29,7 @@ export const About: React.FC = () => {
                 <iframe
   width="560"
   height="315"
-  src="https://www.youtube.com/embed/HwT1dRYtoaY"
+  src="https://www.youtube.com/embed/5U_qIHFotJQ"
   frameBorder="0"
   allowFullScreen
 />
