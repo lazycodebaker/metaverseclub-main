@@ -39,7 +39,7 @@ export default function Home() {
         />
 
         <Navbar />
-        <div className="h-full top-0 left-0 absolute w-screen opacity-40 -z-10 blur-[0px]">
+        <div className="h-full top-10 left-0 absolute w-screen opacity-40 -z-10 blur-[0px]">
           <Image src={BannerImg} alt="banner" layout="fill" objectFit="cover" className='-z-10' />
         </div>
         <Hero />
