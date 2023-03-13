@@ -43,7 +43,7 @@ export const Hero: React.FC = () => {
             WELCOME <br /> TO <br /> METAVERSE CLUB
           </h1>
  
-          <a href='https://metaverseclub.gitbook.io/whitepaper/' target={"_blank"} className="flex items-center justify-center bg-gray-50 hover:bg-gray-200 cursor-pointer font-bold text-lg px-8 py-2 rounded-md">
+          <a href='https://metaverseclub.gitbook.io/whitepaper/' rel={"noreferrer"} target={"_blank"} className="flex items-center justify-center bg-gray-50 hover:bg-gray-200 cursor-pointer font-bold text-lg px-8 py-2 rounded-md">
             <h1 className='text-gray-900'>WhitePaper</h1>
             <BsBoxArrowUpRight className='inline-block ml-2 font-bold text-gray-900' size={20} />
           </a>
