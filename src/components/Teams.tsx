@@ -8,7 +8,7 @@ export const Teams: React.FC<{}> = () => {
     return (
         <div className="flex flex-col items-center justify-center pt-16">
 
-            <div className="w-full bg-blue-600">
+            <div className="w-full bg-indigo-900">
                 <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-12">
                     <div className="text-center pb-12">
                         <h1 className="font-bold text-5xl md:text-7xl lg:text-5xl font-heading text-white">
