@@ -19,7 +19,7 @@ export const PoweredBy: React.FC<{}> = () => {
                 <div className="flex sm:flex-wrap sm:flex-row flex-col items-center justify-center space-x-2">
 
                     <a className="cursor-pointer" target="_blank" rel="noreferrer" href='https://arbitrum.io/'>
-                        <Image src={Arbitrum} alt="Arbitrum" width={200} height={200} />
+                        <Image src={Arbitrum} alt="Arbitrum" width={150} height={150} />
                     </a>
 
                     <a className="cursor-pointer" target="_blank" rel="noreferrer" href='https://www.unrealengine.com/en-US/'>
