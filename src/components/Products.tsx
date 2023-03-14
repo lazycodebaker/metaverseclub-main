@@ -36,12 +36,7 @@ export const Products: React.FC = () => {
                 title={"MCLUB CASINO"}
             />
 
-            <Product
-                title={"MCLUB GAMING"}
-                desc={"Its a games store where gamers get access to multiple NFT games for play to earn . And allow players to buy, sell, or trade in-game items with other players in MCLUB marketplace. For playing games , gamers need to stake some ammount in the staking pool . And from that 10% charge as tax fees , 5% goes to foundation development and 5% distributed as a bonus to our users."}
-                image={imageGaming}
-                imageB={imageBGaming}
-            />
+           
 
             <Product
                 title={"MCLUB DEX"}
@@ -62,13 +57,6 @@ export const Products: React.FC = () => {
                 desc={"MCLUB marketplace refers to an online platform where users can buy, sell, and trade non-fungible tokens (NFTs). NFTs are unique digital assets that are stored on a blockchain, which is a decentralized digital ledger. Each NFT represents a one-of-a-kind item, such as a piece of artwork, a tweet, or a collectible, and can be bought and sold like any other asset.Every NFT contains a digital signature which makes each one unique. NFTs are digital assets and could be photos, videos, audio files, or another digital format."}
                 image={imageMarketplace}
                 imageB={imageBMarketplace}
-            />
-
-            <Product
-                title={"MCLUB ARENA"}
-                desc={"With the help of MCLUB ARENA users can create their unique CLUB . They have their own unique avatar  which they can upgrade on the MCLUB MARKETPLACE . They can upgrade the size of their club , design of  club , upgrade every single games and their features."}
-                image={imageArena}
-                imageB={imageBArena}
             />
 
         </section>
