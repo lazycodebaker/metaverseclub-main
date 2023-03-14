@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const Product = ({image , imageB , title ,desc} : any) => {
     return (
-        <div className="min-w-screen min-h-screen flex items-center overflow-hidden relative">
+        <div id="Products" className="min-w-screen min-h-screen flex items-center overflow-hidden relative">
             
             <Image src={imageB} alt={""} className="w-full h-full -z-10 absolute left-0" />
             
